@@ -1,7 +1,3 @@
-body {
-        font-family: Arial, sans-serif;
-        line-height: 1.6;
-    }
 /*HEADER-----------*/
 .navbar-collapse {
     margin-top: 10px;
@@ -11,25 +7,20 @@ body {
 .navbar {
     box-shadow: 0px 6px 12px 0px #18B9EC;
 }
-.text-green{
+.text-green {
     color: rgb(15, 169, 15) !important;
 }
-.card-superpuesta img{
+.card-superpuesta img {
     filter: brightness(60%);
 }
 .card-img-overlay {
     padding-top: 20% !important;
-    /* 
-    padding-right: 8.5rem !important;
-    padding-top: 20% !important;
-    padding-left: 48% !important;
-    height: max-content;
-    */
 }
 .card-titulo {
     font-size: 2rem;
 }
-.card-titulo, .textoInicio {
+.card-titulo,
+.textoInicio {
     color: white;
     padding-left: 15px;
 }
@@ -37,14 +28,14 @@ body {
     font-size: 1.12rem;
     padding-top: 1rem;
 }
-.botones{
+.botones {
     padding: 15px;
 }
 /*SECTION "INFO"----INICIO*/
-.btn-success{
+.btn-success {
     background: #0e970e !important;
 }
-.sectionContacto div{
+.sectionContacto div {
     font-size: 13px;
     text-align: center;
 }
@@ -52,96 +43,83 @@ body {
     text-align: center;
     padding-top: 1.5rem;
 }
-#info{
+#info {
     margin: 30px;
-    padding: 0% 0% 0% 5%;
+    padding: 0% 0% 0% 4%;
     font-size: large;
-}/*
-.img-carousel1 img{
-    width: 610px!important;
-    height: 540px!important;
-}*/
+}
 #vermasdiv {
-    display:none;
+    display: none;
 }
-/*Fin de Inicio*/
 /*analisis de datos-------*/
-#iframe_graficos{
-    width: 800px; border: 0;/*stylo en linea borrado*/
-    height: 600px;
-    margin-left: 30px;
-    justify-content: space-between;
+iframe {
+    box-shadow: -1px 8px 36px 1px rgba(54, 211, 151, 0.6);
+    -webkit-box-shadow: -1px 8px 36px 1px rgba(54, 211, 151, 0.6);
+    -moz-box-shadow: -1px 8px 36px 1px rgba(54, 211, 151, 0.6);
+    margin: 5px;
+    width: 900px;
+    height: 730px;
 }
-.info-DB{
-    margin-left: 20%; margin-top: 30px; margin-bottom: 30px;/*styleinline*/
-}
-/*------------------------*/
 /*PAGE------EQUIPO*/
-.box__card {
-    margin-top: 10px;
-    padding-left: 15px;
-    padding-bottom: 5% !important;
-    width: 1750px;
+.iconos-equipo{
+margin: 15px;
 }
-.sectionContacto{
+.sectionContacto {
     margin-top: 5%;
 }
-.card-text {
-    font-size: 20x;
+.box__card {
+    height: 60%;
+    width: 95%;
+    margin-left: 10%;
+    margin-bottom: 2%;
 }
-.card-body{
-    height:60vh;
+.card-text{
+    font-size: 15px;
 }
-.card:hover{
+.card:hover {
     box-shadow: 6px 6px 40px 10px #18B9EC;
-}
-/*analisis de datos----------------------------*/
-/*
-.analisis-text {
-    font-size: 14px;
-    color: white;
-}
-*/
-.analisis-text .btn {
-    font-size: 12px;
-    padding: 3px 8px;
-    border-radius: 5px;
 }
 /*FORMULARIO--------- acordion de Consultas*/
 .pases-acc strong {
     font-weight: bold;
     color: #006400;
-  }
+}
+
 /*--------form--contactanos----------------*/
-.titulo-registro{
-    margin-left:10px;
+.titulo-registro {
+    margin-left: 10px;
 }
-.titulo-contacto{
-    font-size: 14px; /*20px!important;*/
+
+.titulo-contacto {
+    font-size: 14px;
+    /*20px!important;*/
 }
+
 /*.parrafo-form{
     font-size: 13px;
 }*/
-#formulario{
+#formulario {
     background-image: url(../assets/img/fondo_form.png);
 }
-#section-form{
+
+#section-form {
     margin-top: 50px;
     padding-top: 50px;
     padding-bottom: 100px;
 }
-.formulario{
+
+.formulario {
     padding-top: 5px;
     margin: 0 auto;
-    width: 50%; 
-    /* width: 60%;
+    width: 60%;
     padding-bottom: 150px;
-}*/
 }
-.texto-area{
+
+.texto-area {
     font-size: 12px;
-    resize: none!important;
+    resize: none !important;
 }
+
 .formulario button {
     width: 100%;
     border: none;
@@ -149,36 +127,39 @@ body {
     background-color: #7fc33b !important;
     color: whitesmoke;
 }
+.form-venta{
+    margin-top: 5%!important;
+}
 /*Comprar Tickets---------------------*/
 #cantidad::-webkit-inner-spin-button,
 #cantidad::-webkit-outer-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
+    -webkit-appearance: none;
+    margin: 0;
+}
+.tickets{
+    background: #ff007a;
+background: linear-gradient(213deg,#ff007a 1%, #ffff00 40%, #00d3ff 80%);
+background: -webkit-linear-gradient(213deg,#ff007a 1%, #ffff00 40%, #00d3ff 80%);
+background: -moz-linear-gradient(213deg,#ff007a 1%, #ffff00 40%, #00d3ff 80%);
 }
 #cantidad {
-  appearance: none;
-  -moz-appearance: textfield;
+    appearance: none;
+    -moz-appearance: textfield;
 }
-.img-estaciones{
+
+.img-estaciones {
     display: flex;
     width: 68%;
     margin-left: 16%;
-    margin-bottom: 20px;
+    margin-bottom: 80px;
 }
-#text-imagen{
+
+#text-imagen {
     color: #ffffff;
     font-size: 16px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-/*------------------------------------*/
-/*
-.page__footer{
-    background-image: linear-gradient(to right, #1a4169,
-    #0a4674, #064e74, #1a5c8a, #085fab); 
 /*FOOTER-----------------------------*/
-footer {
-    padding-top: 5%;
-}
 #pie-de-pagina {
     display: flex;
     background-image: url(../assets/img/footer_img.png);
@@ -188,81 +169,107 @@ footer {
     height: 20vh;
     padding-left: 10%;
 }
-#pie-de-pagina a{
-    text-decoration: none;}
-.icon{
+#pie-de-pagina img{
+    width: 80px; 
+    margin-bottom: 15px; 
+    margin-top: 10px;
+}
+#pie-de-pagina a {
+    text-decoration: none;
+}
+.icon {
     color: #28bd46;
     font-size: 5rem;
-    position:fixed;
-    bottom:15px;
+    position: fixed;
+    bottom: 15px;
     right: 15px;
 }
 /*------------------------/*
 /*CELULAR*/
-@media screen and (max-width: 769px) { 
+@media screen and (max-width: 769px) {
+
     /*INICIO-----------------*/
-#inicio .img-inicio{
+    #inicio .img-inicio {
         min-height: 450px !important;
-        }
-        .card-titulo{
-            text-align: center!important;
-            padding-top: 15%;
-            font-size:large !important;
-        }
+    }
+
+    .card-titulo {
+        text-align: center !important;
+        padding-top: 15%;
+        font-size: large !important;
+    }
+
     .textoInicio {
-        font-size:small;
-    } 
+        font-size: small;
+    }
+
     #info {
-        margin: 0; 
-        padding: 5%;
+        margin: 0;
         padding-bottom: 5%;
     }
-    .botones{
+
+    .botones {
         height: 70px;
         margin-bottom: 40px;
         font-size: small;
     }
-    /*Footer*/
-    footer {
-        padding-top: 15%;
+
+    /*anallisis de datos*/
+    iframe {
+        height: 500px;
+    } 
+    /*equipo*/
+    .card-body{height:max-content!important;}
+    #equipo .box__card {
+        margin-left: 5px !important;
+        
     }
-    /*----------------------------------*/
-/*Equipo--------------------------------*/
-.box__card {
-    margin-top: 20px;
-    padding: 1rem 2rem;
-}
-.box__card {
-    margin-top: 10px;
-    padding-left: 15px;
-    padding-bottom: 5% !important;
-    width: auto;
-}
+    /*Equipo--------------------------------*/
+    .iconos-equipo{
+        display: flex;
+    }
+    /*Footer*/
+    #pie-de-pagina{
+        padding-top: 15vh!important;
+    }
     /*-----------------------------------*/
+}
+@media screen and (max-width:480px){
+#grafico{
+        max-width: max-content!important ;
+        height: 350px !important;
+    }
+#pie-de-pagina .cel{
+    margin-top: 25%!important;
+}
 }
 /*tablet*/
 @media screen and (max-width: 1024px) {
+
     /*iNICIO---------------------*/
-        .img-inicio{
-            min-height: 80px !important;
-            }
-            #info{
-                font-size: 15px;
-            }
+    .img-inicio {
+        min-height: 80px !important;
+    }
+    #info {
+        font-size: 15px;
+    }
+
+    /*analisis de datos*/
+    iframe {
+        max-width: 100% !important;
+    }
+
     /*Equipo--------------------------------*/
-.box__card {
-    margin-top: 20px;
-    padding: 1rem 2rem;
-}
-.box__card {
-    margin-top: 10px;
-    padding-left: 15px;
-    padding-bottom: 5% !important;
-    width: auto;
-    height: auto;
+    .box__card {
+        margin-left: 7rem !important;
+    }
+    .card-body{
+        height: 70vh;
+        }
+.card-text{
+    font-size: small;
 }
     /*-----------------------------------*/
-    }
-    /*portatil 4K*/
-    @media screen and (max-width: 2560) {
-    }
+/*footer*/
+#pie-de-pagina{height: 15vh; padding-top: 15vh;}
+}
